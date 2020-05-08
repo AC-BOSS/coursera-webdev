@@ -1,0 +1,37 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+h1,h2{
+    font-family: 'Righteous', cursive;
+}
+header nav, .row div{
+    background-color: #808080;
+}
+.navbar{
+    padding:0.5rem 0rem 0rem;
+}
+.navbar-brand{
+    padding-left: 1rem;
+    font-size: 2.5rem;
+}
+button.navbar-toggler{
+    margin-right: 1rem;
+    border: 1px solid black;
+}
+ul .nav-item{
+    background-color: #ffffff;
+    border-width: 0px 2px 2px 2px;
+    border-style: solid;
+    border-color: black;
+}  
+@media (max-width:575px){
+    .container {
+    max-width: 375px;
+    }
+}
+#chicken{
+    height:1000px;
+}
+.row{
+    margin-bottom: 10px;
+}
