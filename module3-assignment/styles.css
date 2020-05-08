@@ -1,11 +1,12 @@
 body{
     font-family: 'Roboto', sans-serif;
+    background-color: #66ff66;
 }
 h1,h2{
     font-family: 'Righteous', cursive;
 }
 header nav, .row div{
-    background-color: #808080;
+    background-color: #ccffd9;
 }
 .navbar{
     padding:0.5rem 0rem 0rem;
@@ -13,16 +14,17 @@ header nav, .row div{
 .navbar-brand{
     padding-left: 1rem;
     font-size: 2.5rem;
+    font-family: 'Monoton', cursive;
 }
 button.navbar-toggler{
     margin-right: 1rem;
-    border: 1px solid black;
+    border: 1px outset #66ff66;
 }
 ul .nav-item{
     background-color: #ffffff;
     border-width: 0px 2px 2px 2px;
-    border-style: solid;
-    border-color: black;
+    border-style: outset;
+    border-color: #66ff66;
 }  
 @media (max-width:575px){
     .container {
